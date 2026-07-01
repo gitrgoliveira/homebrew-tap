@@ -6,8 +6,11 @@ A [Homebrew](https://brew.sh) tap for CLI tools by [@gitrgoliveira](https://gith
 
 ```bash
 brew tap gitrgoliveira/tap
+brew trust gitrgoliveira/tap   # newer Homebrew only: trust the third-party tap
 brew install bracket-creator
 ```
+
+(Newer Homebrew refuses to load formulae from an untrusted third-party tap until you run `brew trust gitrgoliveira/tap`; older versions have no such command and can skip that line.)
 
 To update:
 

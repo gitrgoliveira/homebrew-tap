@@ -31,8 +31,8 @@
 class BracketCreator < Formula
   desc "Generate kendo tournament brackets as Excel spreadsheets (CLI + web app)"
   homepage "https://github.com/gitrgoliveira/bracket-creator"
-  url "https://github.com/gitrgoliveira/bracket-creator/archive/refs/tags/v0.17.0.tar.gz"
-  sha256 "cebe971cf2b6a2289a77de2aa89bd7c22da559c9342a41781854a6ce0a827ce5"
+  url "https://github.com/gitrgoliveira/bracket-creator/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "94ee0bb7582fe66b6aa6a95a772ef7a601b749f08bb0ed8ac5f7f8bb830c46e3"
   license "MPL-2.0"
   head "https://github.com/gitrgoliveira/bracket-creator.git", branch: "main"
 
